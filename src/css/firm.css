@@ -1,0 +1,89 @@
+.firm .title_Y {
+    font-size: 2.5rem;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.firm .content_Y {
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.firm_sec {
+    display: flex;
+    gap: 2rem;
+    margin-top: 6rem;
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.around .img_sec {
+    width: 20% !important;
+    margin-left: 4rem;
+}
+
+.around .text_sec {
+    margin-right: 4rem;
+}
+
+.firm_sec .img_sec {
+    width: 45%;
+    /* border: 1px solid; */
+}
+
+.firm_sec .img_sec img {
+    width: 100%;
+}
+
+.firm_sec .ceo img {
+    width: 100%;
+}
+
+.firm_sec .text_sec {
+    width: 45%;
+    /* border: 1px solid; */
+    color: #fff;
+}
+
+.firm_sec .text_sec .segment {
+    margin-bottom: 7rem;
+}
+
+.quote {
+    font-size: 1.7rem !important;
+    line-height: 2.3rem !important;
+    width: 100%;
+}
+
+.center_firm {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0 !important;
+    justify-content: center;
+}
+
+.author {
+    text-align: end;
+    margin-top: 4rem;
+}
+
+.author p:first-child {
+    font-size: 1.7rem;
+    opacity: .9;
+}
+
+.author p:last-child {
+    font-size: 1.2rem;
+    opacity: .9;
+    font-weight: 300;
+    margin-top: .5rem;
+}
+
+.career .segment {
+    margin-bottom: 3rem !important;
+}

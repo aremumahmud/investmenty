@@ -1,0 +1,41 @@
+.team .img {
+    height: 90%;
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.team .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content_ {
+    margin-top: .5rem;
+}
+
+.content_ p:first-child {
+    font-size: 1.4rem;
+}
+
+.content_ p:last-child {
+    font-size: .95rem;
+    opacity: .9;
+    padding-bottom: 1rem;
+}
+
+.team .values {
+    overflow-x: scroll;
+    width: 100% !important;
+    scroll-snap-type: x mandatory;
+    padding-left: 50%;
+}
+
+.team .values .value {
+    height: 90%;
+    width: 50% !important;
+    flex: 0 0 270px;
+    /* Fix the width of the value element */
+    /* background-color: #fff; */
+    padding: 10px;
+    scroll-snap-align: start;
+}

@@ -1,0 +1,37 @@
+    .new img {
+        width: 100%;
+    }
+    
+    .new {
+        position: relative;
+        margin: 2rem;
+        margin-top: 3rem;
+    }
+    
+    .new .content {
+        position: absolute;
+        left: 9%;
+        top: 60%;
+    }
+    
+    .new .circle {
+        width: 8rem;
+        height: 8rem;
+        border: .5rem solid #fff;
+        border-left: .5rem solid #ffffff69;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 2rem;
+    }
+    
+    .new .content {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        font-size: 2rem;
+        font-weight: 400;
+        color: #fff;
+    }

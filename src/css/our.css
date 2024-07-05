@@ -1,0 +1,8 @@
+marquee p {
+    font-size: 4rem;
+    font-weight: 900;
+    opacity: .5;
+    margin-top: 2rem;
+    /* text-decoration: overline; */
+    /* text-shadow: black 1px; */
+}
