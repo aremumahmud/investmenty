@@ -19,14 +19,14 @@ function Header(){
 <div className="left_menu">
     <ul>
         <li><FaHouse /><a href="/the-firm">The Firm</a></li>
-        <li><FaShop /><a href="#services">Businesses</a></li>
+       
         <li><FaNewspaper /><a href="#news">News & Insights</a></li>
     </ul>
 </div>
 <div className="logo">  <a href="/"><img src={logo} alt="" /></a></div>
 <div className="right_menu">
 <ul>
-        <li><FaArrowDownUpLock /> <a href="#about">Investor Login</a></li>
+      
         <div style={{
                 border: '1px solid black'
             }} id="google_translate_element"></div>

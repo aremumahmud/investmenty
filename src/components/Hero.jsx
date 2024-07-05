@@ -55,7 +55,7 @@ let images = [B2,B1,B3]
             <span>{subtext[hero]}</span>
          
           </p>
-          <a href="https://forms.gle/5WFuiwxC4BC7jTbs5"><Button /></a>
+          <a href="https://dashboard.ledgecapitals.com/login"><Button /></a>
           <br />
         </div>
         {/* <br /> */}
