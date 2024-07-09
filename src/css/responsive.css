@@ -15,6 +15,9 @@
         .team .values {
             padding-left: 0 !important;
         }
+        .team .values .value {
+            width: 100% !important;
+        }
         .news .news_cards {
             display: grid;
             justify-content: space-between;
