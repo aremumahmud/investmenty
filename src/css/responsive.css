@@ -12,6 +12,16 @@
         .header_wrap .logo {
             width: 33% !important;
         }
+        .team .values {
+            padding-left: 0 !important;
+        }
+        .news .news_cards {
+            display: grid;
+            justify-content: space-between;
+            gap: 1rem;
+            grid-template-columns: 1fr !important;
+            margin-top: 4rem;
+        }
         /* hero */
         .hero .main {
             font-size: 2rem !important;
