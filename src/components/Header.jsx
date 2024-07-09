@@ -48,6 +48,9 @@ function Header(){
             <li><FaHandshake />What we do</li>
             <li><FaDollarSign />Funding</li>
             <li><FaPhone />Contacts</li>
+            <div style={{
+                border: '1px solid black'
+            }} id="google_translate_element"></div>
             </ul>
         </div>
        </div>
