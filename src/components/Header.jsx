@@ -2,6 +2,7 @@ import '../css/header.css'
 import logo from '../assets/Daniel_Gallego__2_-removebg-preview.png'
 import {FaArrowDownUpLock, FaBars, FaBriefcase, FaDollarSign, FaGears, FaHandshake, FaHouse, FaNewspaper, FaPhone, FaShop, FaX} from 'react-icons/fa6'
 import { useEffect, useState } from 'react'
+import GoogleTranslate from './tans'
 
 function Header(){
 
@@ -26,10 +27,7 @@ function Header(){
 <div className="logo">  <a href="/"><img src={logo} alt="" /></a></div>
 <div className="right_menu">
 <ul>
-      
-        <div style={{
-                border: '1px solid black'
-            }} id="google_translate_element"></div>
+      <GoogleTranslate />
      <li><FaPhone />  <a href="#contact">Contacts</a> </li>
     </ul>
 </div>
@@ -48,9 +46,7 @@ function Header(){
             <li><FaHandshake />What we do</li>
             <li><FaDollarSign />Funding</li>
             <li><FaPhone />Contacts</li>
-            <div style={{
-                border: '1px solid black'
-            }} id="google_translate_element"></div>
+           <GoogleTranslate />
             </ul>
         </div>
        </div>
