@@ -21,7 +21,7 @@ function OurTeam(){
         </div>
         <br />
         <div className="content_">
-            <p>Joseph Mozube </p><p>Chief Executing Officer</p>
+            <p data-no-translate>Joseph Mozube </p><p>Chief Executing Officer</p>
         </div>
      
     </div>
@@ -32,7 +32,7 @@ function OurTeam(){
         </div>
         <br />
         <div className="content_">
-            <p>Tillman Allen </p><p>Chief Operating Officer</p>
+            <p data-no-translate>Tillman Allen </p><p>Chief Operating Officer</p>
         </div>
      
     </div>
@@ -42,7 +42,7 @@ function OurTeam(){
         </div>
         <br />
         <div className="content_">
-            <p>Sophie Grizzle </p><p>Head of Acquisitions</p>
+            <p data-no-translate>Sophie Grizzle </p><p>Head of Acquisitions</p>
         </div>
      
     </div>
@@ -52,7 +52,7 @@ function OurTeam(){
             </div>
             <br />
             <div className="content_">
-            <p>Muhammad J.A </p><p>Managing Partner, U.A.E</p>
+            <p data-no-translate>Muhammad J.A </p><p>Managing Partner, U.A.E</p>
            
         </div>
     </div>
@@ -62,7 +62,7 @@ function OurTeam(){
             </div>
             <br />
             <div className="content_">
-            <p>Chris Rutledge </p><p>Managing Partner</p>
+            <p data-no-translate>Chris Rutledge </p><p>Managing Partner</p>
         </div>
             
     </div>

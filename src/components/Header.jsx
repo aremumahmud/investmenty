@@ -2,9 +2,10 @@ import '../css/header.css'
 import logo from '../assets/Daniel_Gallego__2_-removebg-preview.png'
 import {FaArrowDownUpLock, FaBars, FaBriefcase, FaDollarSign, FaGears, FaHandshake, FaHouse, FaNewspaper, FaPhone, FaShop, FaX} from 'react-icons/fa6'
 import { useEffect, useState } from 'react'
-import GoogleTranslate from './tans'
+import TranslateDropdown from './transdrop'
 
-function Header(){
+
+function Header({setmehome}){
 
     let [on , setOn] = useState(false)
 
@@ -27,7 +28,7 @@ function Header(){
 <div className="logo">  <a href="/"><img src={logo} alt="" /></a></div>
 <div className="right_menu">
 <ul>
-      <GoogleTranslate />
+      <TranslateDropdown  setmehome={setmehome}/>
      <li><FaPhone />  <a href="#contact">Contacts</a> </li>
     </ul>
 </div>
@@ -46,7 +47,8 @@ function Header(){
             <li><FaHandshake />What we do</li>
             <li><FaDollarSign />Funding</li>
             <li><FaPhone />Contacts</li>
-           <GoogleTranslate />
+          
+      <TranslateDropdown setmehome={setmehome} />
             </ul>
         </div>
        </div>
