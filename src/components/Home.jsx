@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import AboutUs from "./About"
 import Header from "./Header"
 import Hero from "./Hero"
@@ -11,6 +11,7 @@ import Our from "./ourprocess"
 import OurTeam from "./ourteam"
 import Stats from "./stats"
 import Why from "./why"
+import getUserLanguage from "../utils/geolocate"
 
 function Home(){
     let [prev , setprev] = useState('en')
@@ -21,8 +22,14 @@ function Home(){
         setpresent(curr)
     }
 
+    useEffect(()=>{
+           getUserLanguage().then(e=>{
+            console.log(e)
+           })
+    }, [])
+
     return(
-        <> <Header setmehome={setmehome}  />
+        <><Header setmehome={setmehome}  />
         <br /><br /><br /><br />
          <Hero from={prev} to={present} />
          <CompanyValues /> 

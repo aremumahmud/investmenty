@@ -17,11 +17,11 @@ function OurTeam(){
 <div className="values">
 <div className="value">
         <div className="img up">
- <img src={svg5} alt="" />
+ <img src={svg3} alt="" />
         </div>
         <br />
         <div className="content_">
-            <p data-no-translate>Joseph Mozube </p><p>Chief Executing Officer</p>
+            <p data-no-translate>Chris Rutledge </p><p>Chief Executing Officer</p>
         </div>
      
     </div>
@@ -56,7 +56,7 @@ function OurTeam(){
            
         </div>
     </div>
-    <div className="value">
+    {/* <div className="value">
     <div className="img up">
              <img src={svg3} alt="" />
             </div>
@@ -65,7 +65,7 @@ function OurTeam(){
             <p data-no-translate>Chris Rutledge </p><p>Managing Partner</p>
         </div>
             
-    </div>
+    </div> */}
    
    
 </div>

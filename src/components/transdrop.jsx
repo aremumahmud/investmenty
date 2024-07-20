@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import translateText from '../utils/translate';
 import languages from '../utils/languages';
+import getUserLanguage from '../utils/geolocate';
 
 
 
@@ -23,10 +24,17 @@ const translateAllTextNodes = async (targetLanguage, from) => {
 };
 
 const TranslateDropdown = ({setmehome}) => {
+
+ 
   const [prevSelectedLanguage , setPrevSelectedLanguage] = useState('en')
   const [selectedLanguage, setSelectedLanguage] = useState('en');
  
-
+  useEffect(()=>{
+    const default_lang = getUserLanguage()
+    default_lang.then(lang=>{
+      setSelectedLanguage(lang)
+    })
+  },[])
   useEffect(() => {
     
       translateAllTextNodes(selectedLanguage , prevSelectedLanguage);

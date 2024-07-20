@@ -24,10 +24,7 @@
 }
 
 .team .values {
-    overflow-x: scroll;
     width: 100% !important;
-    scroll-snap-type: x mandatory;
-    padding-left: 50%;
 }
 
 .team .values .value {
