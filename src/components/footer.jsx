@@ -13,7 +13,7 @@ function Footer() {
                  <p className="footer_title">
                  Stay ahead with cutting-edge insights
                     </p>
-                    <a style={{marginLeft:'0'}} href="https://dashboard.ledgecapitals.com/login"><Button /></a>
+                    <a style={{marginLeft:'0'}} href="https://dashboard.ledgecapitalsllc.com/login"><Button /></a>
             </div>
          
           

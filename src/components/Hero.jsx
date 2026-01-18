@@ -69,7 +69,7 @@ let [subtext_ , setsubtext] = useState(subtext[hero])
             <span>{subtext_}</span>
          
           </p>
-          <a href="https://dashboard.ledgecapitals.com/login"><Button /></a>
+          <a href="https://dashboard.ledgecapitalsllc.com/login"><Button /></a>
           <br />
         </div>
         {/* <br /> */}
